@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pedro Correia Antunes — Estudante de Ciência da Computação em Recife, PE." />
+  <title>Pedro Correia Antunes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">Pedro <em>Correia</em></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">sobre</a></li>
+    <li><a href="projetos.html">projetos</a></li>
+    <li><a href="contato.html">contato</a></li>
+    <li><button class="theme-btn" id="themeBtn">claro</button></li>
+  </ul>
+</nav>
+
+<main class="page">
+  <section class="hero">
+
+    <div class="hero-left">
+      <div class="hero-location">
+        Recife, Pernambuco — BR
+        <span class="status-badge">
+          <span class="status-dot"></span>disponível
+        </span>
+      </div>
+
+      <h1 class="hero-name">
+        Pedro<br>
+        Correia<br>
+        <span class="italic">Antunes.</span>
+      </h1>
+
+      <div class="hero-course">
+        Ciência da Computação
+        <span>·</span>
+        <span id="heroRole">estudante de CC</span>
+      </div>
+
+      <p class="hero-bio">
+        Entuasiasta e apaixonado por tecnologia. Estudnate de Ciência da computação. Conciliando os estudos com projetos peessoais.
+      </p>
+
+      <p class="stack-label">// tecnologias</p>
+      <div class="stack-chips">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Python</span>
+        <span class="chip">Git</span>
+      </div>
+
+      <div class="hero-cta">
+        <a href="contato.html" class="btn btn-primary">entrar em contato</a>
+        <a href="projetos.html" class="btn btn-ghost">ver projetos →</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="photo-bg-shape"></div>
+      <div class="photo-ring"></div>
+      <div class="photo-ring"></div>
+      <div class="photo-ring"></div>
+      <!-- FOTO — arquivo photo.png na mesma pasta -->
+      <img src="photo.png" alt="Pedro Correia Antunes" class="hero-photo" loading="eager" />
+      <div class="info-pill top-right">
+        <span class="pill-label">curso</span>
+        <span class="pill-value">CC</span>
+      </div>
+      <div class="info-pill bot-left">
+        <span class="pill-label">cidade</span>
+        <span class="pill-value">Recife</span>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="objectives">
+    <p class="section-eyebrow">objetivos</p>
+    <h2 class="section-title">Onde quero <em>chegar.</em></h2>
+
+    <div class="objectives-grid">
+      <article class="obj-card fade-in">
+        <div class="obj-number">01</div>
+        <h3 class="obj-title">Evoluir como desenvolvedor</h3>
+        <p class="obj-text">
+          Tornar-me um desenvolvedor capaz de criar projetos completos de modo consistente e autônomo
+        </p>
+      </article>
+      <article class="obj-card fade-in">
+        <div class="obj-number">02</div>
+        <h3 class="obj-title">Construir uma presença profissional forte</h3>
+        <p class="obj-text">
+         Desenvolver e manter um portfólio, GitHub e LinkedIn atualizados, compartilhando projetos e experiências para demonstrar habilidades, aumentar a visibilidade na área e criar oportunidades de networking e carreira.
+        </p>
+      </article>
+      <article class="obj-card fade-in">
+        <div class="obj-number">03</div>
+        <h3 class="obj-title">Conseguir o primeiro estágio</h3>
+        <p class="obj-text">
+Ser aprovado em um estágio na área de tecnologia com o intuito de ter contato real com o mercado de trabalho e desafios cotidianos do meio.        </p>
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-text">&copy; 2026 <em>Pedro Correia Antunes</em></p>
+    <button class="footer-back-top" id="backTop">↑ voltar ao topo</button>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

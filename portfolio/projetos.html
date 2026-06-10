@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projetos — Pedro Correia Antunes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">Pedro <em>Correia</em></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links">
+    <li><a href="index.html">sobre</a></li>
+    <li><a href="projetos.html" class="active">projetos</a></li>
+    <li><a href="contato.html">contato</a></li>
+    <li><button class="theme-btn" id="themeBtn">claro</button></li>
+  </ul>
+</nav>
+
+<main class="page">
+  <div class="projects-page">
+
+    <header class="page-hero fade-in">
+      <p class="page-hero-eyebrow">// trabalhos selecionados</p>
+      <h1 class="page-hero-title">O que<br><em>construí.</em></h1>
+      <p class="page-hero-sub">
+        Projetos que representam minha evolução como desenvolvedor —
+        da lógica de jogos à análise de dados.
+      </p>
+    </header>
+
+    <div class="section-rule">
+      <span class="section-rule-label">3 projetos</span>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- ── CARD 1: Dominó Digital ──────────────────────────
+           Para atualizar o repositório, substitua o href="#"
+           pelo link GitHub: href="https://github.com/usuario/domino-digital"
+      ────────────────────────────────────────────────────── -->
+      <article class="project-card fade-in">
+        <div class="project-header">
+          <span class="project-index">01</span>
+          <span class="project-type">Acessibilidade</span>
+        </div>
+        <h2 class="project-name">DomiNod</h2>
+        <p class="project-desc">
+          Jogo de dominó completo que roda no navegador, com lógica
+          de partida, turnos automáticos e validação de jogadas.
+          Inegração com sensores e arduinos para garantir acessibilidade à pessoas tetraplérgicas ou com outras deficiências motoras.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Arduino</span>
+        </div>
+        <div class="project-footer">
+          <!-- SUBSTITUA href="#" pelo link do repositório -->
+          <a href="https://github.com/Pedro-Correia-Antunes/DomiNod" target="_blank" rel="noopener" class="repo-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+            repositório
+          </a>
+        </div>
+      </article>
+
+      <!-- ── CARD 2: LIA ──────────────────────────────────────
+           Para atualizar o repositório, substitua o href="#"
+           pelo link GitHub: href="https://github.com/usuario/lia"
+      ────────────────────────────────────────────────────── -->
+      <article class="project-card fade-in">
+        <div class="project-header">
+          <span class="project-index">02</span>
+          <span class="project-type">Ferramenta</span>
+        </div>
+        <h2 class="project-name">Pokemon Type-Checker</h2>
+        <p class="project-desc">
+          Sistema em python capaz de mostrar as relações de fraquezas e resistências entre os diveros tipos de Pokemon com inputs simples. (Em aprimoramento)
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Dados</span>
+        </div>
+        <div class="project-footer">
+          <!-- SUBSTITUA href="#" pelo link do repositório -->
+          <a href="https://github.com/Pedro-Correia-Antunes/Pokemon-Type-Checker" target="_blank" rel="noopener" class="repo-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+            repositório
+          </a>
+        </div>
+      </article>
+
+      <!-- ── CARD 3: Bet Assistant ────────────────────────────
+           Para atualizar o repositório, substitua o href="#"
+           pelo link GitHub: href="https://github.com/usuario/bet-assistant"
+      ────────────────────────────────────────────────────── -->
+      <article class="project-card fade-in">
+        <div class="project-header">
+          <span class="project-index">03</span>
+          <span class="project-type">...</span>
+        </div>
+        <h2 class="project-name">Cooming soon...</h2>
+        <p class="project-desc">
+          ...
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">.</span>
+          <span class="tech-tag">..</span>
+          <span class="tech-tag">...</span>
+        </div>
+        <div class="project-footer">
+          <!-- SUBSTITUA href="#" pelo link do repositório -->
+          <a href="#" target="_blank" rel="noopener" class="repo-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+            repositório
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p class="footer-text">&copy; 2026 <em>Pedro Correia Antunes</em></p>
+    <button class="footer-back-top" id="backTop">↑ voltar ao topo</button>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
